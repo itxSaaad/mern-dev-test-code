@@ -21,6 +21,10 @@ const carSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  maxPictures: {
+    type: Number,
+    required: true,
+  },
   images: {
     type: [String],
     required: true,
