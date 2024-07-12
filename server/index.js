@@ -3,7 +3,6 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const colors = require('colors');
 const morgan = require('morgan');
-const cloudinary = require('cloudinary').v2;
 
 const connectDb = require('./config/db');
 const { notFound, errorHandler } = require('./middlewares/errorMiddleware');
